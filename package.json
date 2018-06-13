@@ -15,27 +15,21 @@
     "jest.js"
   ],
   "dependencies": {
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-prettier": "^2.9.0"
-  },
-  "devDependencies": {
     "eslint": "^5.0.0-rc.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jest": "^21.17.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.9.1",
+    "eslint-plugin-react": "^7.9.1"
+  },
+  "devDependencies": {
     "kcd-scripts": "^0.30.4"
   },
   "homepage": "https://github.com/donysukardi/eslint-config-dsds",
   "license": "MIT",
   "main": "index.js",
-  "peerDependencies": {
-    "eslint": ">=5.0.0-rc.0",
-    "eslint-plugin-import": ">=2.8.0",
-    "eslint-plugin-jsx-a11y": ">=6.0.3",
-    "eslint-plugin-react": ">=7.9.1",
-    "eslint-plugin-jest": ">=21.17.0"
-  },
+  "peerDependencies": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/donysukardi/eslint-config-dsds.git"
