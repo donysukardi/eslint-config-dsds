@@ -1,0 +1,51 @@
+{
+  "name": "eslint-config-dsds",
+  "description": "JavaScript DSDS Style - ESLint Shareable Config",
+  "version": "0.0.0-semantically-released",
+  "author": {
+    "name": "Dony Sukardi",
+    "email": "donysukardi@gmail.com",
+    "url": "https://donysukardi.com"
+  },
+  "bugs": {
+    "url": "https://github.com/donysukardi/eslint-config-dsds/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.0-rc.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "kcd-scripts": "^0.30.4"
+  },
+  "homepage": "https://github.com/donysukardi/eslint-config-dsds",
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=5.0.0-rc.0",
+    "eslint-plugin-import": ">=2.8.0",
+    "eslint-plugin-jsx-a11y": ">=6.0.3",
+    "eslint-plugin-react": ">=7.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/donysukardi/eslint-config-dsds.git"
+  },
+  "scripts": {
+    "validate": "kcd-scripts validate lint",
+    "precommit": "kcd-scripts precommit",
+    "lint": "kcd-scripts lint --config index.js",
+    "test": "kcd-scripts test"
+  },
+  "eslintIgnore": [
+    "node_modules",
+    "coverage",
+    "dist"
+  ]
+}
