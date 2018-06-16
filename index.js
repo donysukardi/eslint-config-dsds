@@ -18,9 +18,13 @@ module.exports = {
     },
   },
   rules: {
-    'no-underscore-dangle': 0,
     'no-confusing-arrow': 0,
+    'no-else-return': 0,
+    'no-plusplus': 0,
+    'no-prototype-builtins': 0,
     'no-shadow': 0,
+    'no-underscore-dangle': 0,
+    'no-unused-expressions': 0,
     'import/no-unresolved': 0,
     'import/extensions': 0,
     'import/no-extraneous-dependencies': 0,
@@ -30,5 +34,21 @@ module.exports = {
     'react/forbid-prop-types': 0,
     'react/prefer-stateless-function': 0,
     'react/require-default-props': 0,
+    'react/sort-comp': [
+      1,
+      {
+        order: [
+          'static-methods',
+          'type-annotations',
+          'instance-variables',
+          'instance-methods',
+          'getters',
+          'setters',
+          'everything-else',
+          'lifecycle',
+          'render',
+        ],
+      },
+    ],
   },
 }
